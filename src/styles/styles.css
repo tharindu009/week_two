@@ -17,6 +17,15 @@
     font-size: 2.5rem;
 }
 
+.creation-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
 .bg-background-set {
     background-image: url("../assets/images/mobile/image-hero.jpg");
 }
@@ -37,6 +46,14 @@
     }
 }
 
+@media (max-width: 768px) {
+
+    .img-container,
+    .img-text {
+        margin-bottom: 20px;
+    }
+}
+
 .bg-hero-set {
     background-image: url("../assets/images/mobile/image-interactive.jpg");
 }
@@ -52,7 +69,7 @@
     left: 500px;
     margin-left: 15px;
     width: 500px;
-    height: 500px;
+    height: 275px;
     position: absolute;
     display: block;
     background-color: hsl(0, 0%, 100%);

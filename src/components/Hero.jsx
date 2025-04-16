@@ -9,7 +9,7 @@ const Hero = () => {
                 <img className='img-fluid' src={bgimage} alt="" />
                 <div className='img-text p-5'>
                     <h2 className='header2'>THE LEADER IN INTERACTIVE VR</h2>
-                    <p className="font-weight-light">
+                    <p className="pt-3" style={{ fontSize: '.75rem', fontWeight: '100', color: 'gray' }}>
                         Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe.
                         Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
                     </p>
